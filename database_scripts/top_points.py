@@ -13,29 +13,38 @@ engine = create_engine('mysql+pymysql://root:code@localhost/f1_analytics')
 race_results_df = pd.read_sql('SELECT * FROM RaceResults', engine)
 
 # -------------------------------
-# Step 3: Find driver with most points
+# Step 3: Find top 10 drivers by points
 # -------------------------------
+
 # Make sure Points column is numeric
 race_results_df['Points'] = pd.to_numeric(race_results_df['Points'], errors='coerce').fillna(0)
 
-# Group by driver and sum points
-total_points = race_results_df.groupby(['DriverNumber', 'FullName'])['Points'].sum().reset_index()
+# Group by driver and sum points (include TeamName + DriverId)
+total_points = race_results_df.groupby(
+    ['DriverId', 'DriverNumber', 'FullName', 'TeamName']
+)['Points'].sum().reset_index()
 
 # Sort descending by points
 total_points_sorted = total_points.sort_values(by='Points', ascending=False)
 
-# Get the top driver
+# Get the top 10 drivers
+top_10_drivers = total_points_sorted.head(10).reset_index(drop=True)
+
+# Add ranking column starting at 1
+top_10_drivers.index = top_10_drivers.index + 1
+
+# -------------------------------
+# Step 4: Print results
+# -------------------------------
+
+print("Top 10 drivers by total points:\n")
+print(top_10_drivers)
+
+# Optional: print #1 driver
 top_driver = total_points_sorted.iloc[0]
-
-print(f"Driver with most points: {top_driver['FullName']} ({top_driver['Points']} points)")
-
-# -------------------------------
-# Optional: Show top 5 drivers
-# -------------------------------
-print("\nTop 5 drivers by points:")
-print(total_points_sorted.head())
+print(f"\nTop driver: {top_driver['FullName']} ({top_driver['TeamName']}) - {top_driver['Points']} points")
 
 # -------------------------------
-# Step 4: Close the connection
+# Step 5: Close the connection
 # -------------------------------
 engine.dispose()
