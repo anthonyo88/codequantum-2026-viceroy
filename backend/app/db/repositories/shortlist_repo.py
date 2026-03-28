@@ -45,12 +45,14 @@ class ShortlistRepository:
         )
         self.session.add(shortlist)
         await self.session.flush()
+        await self.session.refresh(shortlist)
         return shortlist
 
     async def update(self, shortlist: Shortlist, **kwargs) -> Shortlist:
         for key, value in kwargs.items():
             setattr(shortlist, key, value)
         await self.session.flush()
+        await self.session.refresh(shortlist)
         return shortlist
 
     async def delete(self, shortlist: Shortlist) -> None:
@@ -73,6 +75,7 @@ class ShortlistRepository:
             shortlist.notes = {**existing_notes, **notes}
 
         await self.session.flush()
+        await self.session.refresh(shortlist)
         return shortlist
 
     async def remove_driver(
@@ -82,4 +85,5 @@ class ShortlistRepository:
         existing_notes = shortlist.notes or {}
         shortlist.notes = {k: v for k, v in existing_notes.items() if k != str(driver_id)}
         await self.session.flush()
+        await self.session.refresh(shortlist)
         return shortlist
