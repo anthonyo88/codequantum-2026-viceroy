@@ -62,7 +62,7 @@ def _bio_chunk(driver: Driver, stats: Optional[DriverCareerStats]) -> DocumentCh
         source_type="driver_bio",
         content=" ".join(parts),
         metadata_={"driver_name": driver.full_name},
-        embedding_model=settings.openai_embedding_model,
+        embedding_model=settings.embedding_model,
         embedding=None,
     )
 
@@ -95,7 +95,7 @@ def _career_stats_chunk(driver: Driver, stats: DriverCareerStats) -> DocumentChu
         source_type="career_stats",
         content=content,
         metadata_={"driver_name": driver.full_name},
-        embedding_model=settings.openai_embedding_model,
+        embedding_model=settings.embedding_model,
         embedding=None,
     )
 
@@ -131,6 +131,6 @@ def _season_chunk(driver: Driver, season: DriverSeason) -> DocumentChunk:
         source_type="season_summary",
         content=" ".join(parts),
         metadata_={"driver_name": driver.full_name, "season_year": season.season_year},
-        embedding_model=settings.openai_embedding_model,
+        embedding_model=settings.embedding_model,
         embedding=None,
     )

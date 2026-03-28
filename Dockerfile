@@ -8,7 +8,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 COPY pyproject.toml ./
-RUN pip install --no-cache-dir uv && uv pip install --system -e .
+RUN pip install --no-cache-dir uv \
+    && pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu \
+    && uv pip install --system -e .
 
 COPY . .
 

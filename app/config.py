@@ -11,10 +11,13 @@ class Settings(BaseSettings):
     # Redis
     redis_url: str = "redis://localhost:6379/0"
 
-    # OpenAI
-    openai_api_key: str = ""
-    openai_embedding_model: str = "text-embedding-3-large"
-    openai_chat_model: str = "gpt-4o"
+    # Groq (chat/LLM)
+    groq_api_key: str = ""
+    groq_chat_model: str = "llama-3.1-8b-instant"
+
+    # Embeddings (sentence-transformers, runs locally)
+    embedding_model: str = "all-mpnet-base-v2"
+    embedding_dims: int = 768
 
     # Auth
     secret_key: str = "dev-secret-change-in-production"

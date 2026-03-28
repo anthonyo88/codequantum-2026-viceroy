@@ -18,7 +18,7 @@ class DocumentChunk(Base, UUIDMixin, TimestampMixin):
     # driver_bio / season_summary / race_result / general
     source_type: Mapped[str] = mapped_column(String(50), nullable=False)
     content: Mapped[str] = mapped_column(Text, nullable=False)
-    embedding: Mapped[Optional[list]] = mapped_column(Vector(1536), nullable=True)
+    embedding: Mapped[Optional[list]] = mapped_column(Vector(768), nullable=True)
     # Extra context: season year, circuit, etc.
     metadata_: Mapped[Optional[dict]] = mapped_column("metadata", JSON, nullable=True)
     # Track which embedding model was used (for future upgrades)

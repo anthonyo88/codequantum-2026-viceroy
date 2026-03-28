@@ -3,7 +3,7 @@ from datetime import date, datetime
 from typing import TYPE_CHECKING, Optional
 
 from pgvector.sqlalchemy import Vector
-from sqlalchemy import Boolean, Date, Float, Integer, String, Text
+from sqlalchemy import Boolean, Date, Float, ForeignKey, Integer, String, Text
 from sqlalchemy.dialects.postgresql import ARRAY, UUID
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -28,8 +28,8 @@ class Driver(Base, UUIDMixin, TimestampMixin):
     license_grade: Mapped[Optional[str]] = mapped_column(String(50), nullable=True)
     active_status: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
 
-    # pgvector embedding (1536 dims = text-embedding-3-large)
-    embedding_vector: Mapped[Optional[list]] = mapped_column(Vector(1536), nullable=True)
+    # pgvector embedding (768 dims = all-mpnet-base-v2)
+    embedding_vector: Mapped[Optional[list]] = mapped_column(Vector(768), nullable=True)
 
     # Relationships
     career_stats: Mapped[Optional["DriverCareerStats"]] = relationship(
@@ -51,7 +51,7 @@ class DriverCareerStats(Base, UUIDMixin, TimestampMixin):
     __tablename__ = "driver_career_stats"
 
     driver_id: Mapped[uuid.UUID] = mapped_column(
-        UUID(as_uuid=True), nullable=False, unique=True
+        UUID(as_uuid=True), ForeignKey("drivers.id", ondelete="CASCADE"), nullable=False, unique=True
     )
 
     total_race_starts: Mapped[int] = mapped_column(Integer, default=0)

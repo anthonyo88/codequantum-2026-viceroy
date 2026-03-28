@@ -35,7 +35,7 @@ services:
     environment:
       DATABASE_URL: postgresql+asyncpg://f1admin:f1password@postgres:5432/f1recruiting
       REDIS_URL: redis://redis:6379/0
-      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      GROQ_API_KEY: ${GROQ_API_KEY}
       SECRET_KEY: ${SECRET_KEY:-dev-secret-change-in-production}
       ENVIRONMENT: development
     depends_on:
@@ -52,7 +52,7 @@ services:
     environment:
       DATABASE_URL: postgresql+asyncpg://f1admin:f1password@postgres:5432/f1recruiting
       REDIS_URL: redis://redis:6379/0
-      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      GROQ_API_KEY: ${GROQ_API_KEY}
       SECRET_KEY: ${SECRET_KEY:-dev-secret-change-in-production}
     depends_on:
       postgres:

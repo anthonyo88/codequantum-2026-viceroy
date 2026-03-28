@@ -23,6 +23,7 @@ from app.ingestion.csv_parser import (
     read_results,
     read_statuses,
 )
+from app.ingestion.fastf1_pipeline import is_fastf1_data_dir, parse_fastf1_csvs
 from app.ingestion.transformers import F1DataTransformer
 from app.ingestion.validators import validate_drivers
 from app.models.driver import Driver, DriverCareerStats
@@ -83,35 +84,47 @@ async def run_ingestion(
     log.info("ingestion.start", data_dir=str(data_dir))
 
     # --- Load CSV files ---
-    drivers_path = _find_file(data_dir, "drivers.csv")
-    results_path = _find_file(data_dir, "results.csv")
-    races_path = _find_file(data_dir, "races.csv")
-    circuits_path = _find_file(data_dir, "circuits.csv")
-    constructors_path = _find_file(data_dir, "constructors.csv")
-
-    if not all([drivers_path, results_path, races_path, circuits_path, constructors_path]):
-        missing = [k for k, p in {
-            "drivers": drivers_path,
-            "results": results_path,
-            "races": races_path,
-            "circuits": circuits_path,
-            "constructors": constructors_path,
-        }.items() if p is None]
-        raise FileNotFoundError(f"Required CSV files not found in {data_dir}: {missing}")
-
-    qualifying_path = _find_file(data_dir, "qualifying.csv")
-    standings_path = _find_file(data_dir, "driver_standings.csv")
-    status_path = _find_file(data_dir, "status.csv")
-
     log.info("ingestion.reading_csvs")
-    raw_drivers = read_drivers(drivers_path)
-    raw_constructors = read_constructors(constructors_path)
-    raw_circuits = read_circuits(circuits_path)
-    raw_races = read_races(races_path)
-    raw_results = read_results(results_path)
-    raw_qualifying = read_qualifying(qualifying_path) if qualifying_path else []
-    raw_standings = read_driver_standings(standings_path) if standings_path else []
-    statuses = read_statuses(status_path) if status_path else {}
+    if is_fastf1_data_dir(data_dir):
+        log.info("ingestion.format_detected", format="fastf1")
+        parsed = parse_fastf1_csvs(data_dir)
+        raw_drivers = parsed["raw_drivers"]
+        raw_constructors = parsed["raw_constructors"]
+        raw_circuits = parsed["raw_circuits"]
+        raw_races = parsed["raw_races"]
+        raw_results = parsed["raw_results"]
+        raw_qualifying = parsed["raw_qualifying"]
+        raw_standings = parsed["raw_standings"]
+        statuses = parsed["statuses"]
+    else:
+        drivers_path = _find_file(data_dir, "drivers.csv")
+        results_path = _find_file(data_dir, "results.csv")
+        races_path = _find_file(data_dir, "races.csv")
+        circuits_path = _find_file(data_dir, "circuits.csv")
+        constructors_path = _find_file(data_dir, "constructors.csv")
+
+        if not all([drivers_path, results_path, races_path, circuits_path, constructors_path]):
+            missing = [k for k, p in {
+                "drivers": drivers_path,
+                "results": results_path,
+                "races": races_path,
+                "circuits": circuits_path,
+                "constructors": constructors_path,
+            }.items() if p is None]
+            raise FileNotFoundError(f"Required CSV files not found in {data_dir}: {missing}")
+
+        qualifying_path = _find_file(data_dir, "qualifying.csv")
+        standings_path = _find_file(data_dir, "driver_standings.csv")
+        status_path = _find_file(data_dir, "status.csv")
+
+        raw_drivers = read_drivers(drivers_path)
+        raw_constructors = read_constructors(constructors_path)
+        raw_circuits = read_circuits(circuits_path)
+        raw_races = read_races(races_path)
+        raw_results = read_results(results_path)
+        raw_qualifying = read_qualifying(qualifying_path) if qualifying_path else []
+        raw_standings = read_driver_standings(standings_path) if standings_path else []
+        statuses = read_statuses(status_path) if status_path else {}
 
     log.info(
         "ingestion.csvs_loaded",
