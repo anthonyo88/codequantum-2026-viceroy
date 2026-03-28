@@ -1,0 +1,192 @@
+[
+  {
+    "question": "Who is the fastest driver this season?",
+    "answer": "Top matches for 'fastest driver':\n1. Oscar Piastri (McLaren) — recorded the single fastest lap of the season (67.924s) and averaged 88.177s per lap, the best average of any driver in 2025. 7 wins and 381 championship points.\n2. Lando Norris (McLaren) — second-fastest average lap (88.510s), championship leader with 394 points and 7 wins across the season.\n3. Lewis Hamilton (Ferrari) — third-fastest best lap (68.628s), showing strong one-lap pace despite Ferrari's inconsistent race results.",
+    "driver_names": ["Oscar Piastri", "Lando Norris", "Lewis Hamilton"]
+  },
+  {
+    "question": "Who is leading the championship?",
+    "answer": "Top matches for 'championship leader':\n1. Lando Norris (McLaren) — leads the 2025 Drivers' Championship with 394 points. 7 race wins including Monaco, Austria, Britain, Hungary, Mexico, Brazil, and Australia.\n2. Max Verstappen (Red Bull Racing) — second in the championship with 389 points and 8 race wins, including dominant victories in Japan, Italy, and Abu Dhabi.\n3. Oscar Piastri (McLaren) — third with 381 points and 7 wins, including Bahrain, Belgium, China, and the Dutch Grand Prix.",
+    "driver_names": ["Lando Norris", "Max Verstappen", "Oscar Piastri"]
+  },
+  {
+    "question": "Who has the most wins this season?",
+    "answer": "Top matches for 'most race wins':\n1. Max Verstappen (Red Bull Racing) — leads with 8 wins in 2025: Azerbaijan, Emilia Romagna, Italy, Japan, Las Vegas, Qatar, United States, and Abu Dhabi.\n2. Lando Norris (McLaren) — 7 wins: Australia, Austria, Britain, Hungary, Mexico, Monaco, and Brazil.\n3. Oscar Piastri (McLaren) — 7 wins: Bahrain, Belgium, China, Dutch, Miami, Saudi Arabia, and Spain.",
+    "driver_names": ["Max Verstappen", "Lando Norris", "Oscar Piastri"]
+  },
+  {
+    "question": "Which driver has the most podiums?",
+    "answer": "Top matches for 'most podiums':\n1. Lando Norris (McLaren) — 18 podium finishes in 2025, the most of any driver on the grid. Consistent front-runner across all circuit types.\n2. Oscar Piastri (McLaren) — 16 podiums. McLaren's one-two dominance is reflected in both drivers finishing on the podium at nearly every race.\n3. Max Verstappen (Red Bull Racing) — 15 podiums despite Red Bull facing increased competition from McLaren. Still a constant threat for race victories.\n4. George Russell (Mercedes) — 9 podiums and 2 race wins, punching above Mercedes' weight.",
+    "driver_names": ["Lando Norris", "Oscar Piastri", "Max Verstappen", "George Russell"]
+  },
+  {
+    "question": "Who should I recruit for a top team?",
+    "answer": "Top matches for 'recruit for a top team':\n1. Lando Norris (McLaren) — Championship leader, 7 wins, 18 podiums. Exceptional in all conditions and demonstrably fast over a race distance. The benchmark driver of 2025.\n2. Max Verstappen (Red Bull Racing) — 8 wins, proven world champion mentality. Unmatched at extracting maximum pace from any car. The gold standard for a number-one driver.\n3. Oscar Piastri (McLaren) — 7 wins, 16 podiums at just 24 years old. Rapidly developing into an elite talent. Could anchor a team for the next decade.",
+    "driver_names": ["Lando Norris", "Max Verstappen", "Oscar Piastri"]
+  },
+  {
+    "question": "Who is the best young driver on the grid?",
+    "answer": "Top matches for 'best young driver':\n1. Oscar Piastri (McLaren) — Only 24 years old but already has 7 wins and 381 championship points in 2025. His car control, racecraft, and tire management are elite. Strong long-term recruitment target.\n2. Andrea Kimi Antonelli (Mercedes) — The most impressive rookie of 2025. 3 podiums and 135 points in his debut season with Mercedes at just 18 years old. Exceptional qualifying pace.\n3. Isack Hadjar (Racing Bulls) — 1 podium and 50 points as a rookie, showing strong raw pace and composure in his first full season.",
+    "driver_names": ["Oscar Piastri", "Andrea Kimi Antonelli", "Isack Hadjar"]
+  },
+  {
+    "question": "How is Max Verstappen performing this season?",
+    "answer": "Max Verstappen (Red Bull Racing) — 2025 performance summary:\n• Championship position: 2nd with 389 points\n• Race wins: 8 (most of any driver) — Azerbaijan, Emilia Romagna, Italy, Japan, Las Vegas, Qatar, United States, Abu Dhabi\n• Pole positions: 8 (led the grid more than any other driver)\n• Podiums: 15 from 24 races\n• Notes: Red Bull has faced strong competition from McLaren this season but Verstappen consistently extracts the maximum from the car. His Abu Dhabi and Japanese wins demonstrated typical ruthless efficiency.",
+    "driver_names": ["Max Verstappen"]
+  },
+  {
+    "question": "Who has the most pole positions this season?",
+    "answer": "Top matches for 'most pole positions':\n1. Max Verstappen (Red Bull Racing) — 8 pole positions in 2025, leading the grid more than any other driver despite Red Bull's competitive challenges.\n2. Lando Norris (McLaren) — 7 poles, reflecting McLaren's exceptional one-lap qualifying pace throughout the season.\n3. Oscar Piastri (McLaren) — 6 poles. The McLaren MCL39's aerodynamic package gave them a significant qualifying advantage at most circuits.",
+    "driver_names": ["Max Verstappen", "Lando Norris", "Oscar Piastri"]
+  },
+  {
+    "question": "Which driver is the most consistent?",
+    "answer": "Top matches for 'most consistent driver':\n1. Max Verstappen (Red Bull Racing) — Only 1 DNF all season from 24 starts. Remarkable reliability and race management. 23 out of 24 races scored points.\n2. George Russell (Mercedes) — 23 points finishes, 2 wins, 9 podiums. Rarely out of the top 10, even when the Mercedes was not the quickest car.\n3. Oscar Piastri (McLaren) — Just 2 DNFs, 22 points-scoring finishes. His consistency alongside race pace makes him one of the most complete drivers on the grid.",
+    "driver_names": ["Max Verstappen", "George Russell", "Oscar Piastri"]
+  },
+  {
+    "question": "Who is the best qualifier on the grid?",
+    "answer": "Top matches for 'best qualifier':\n1. Max Verstappen (Red Bull Racing) — 8 pole positions in 2025. His qualifying aggression and ability to find the limit on a hot lap remains unmatched.\n2. Lando Norris (McLaren) — 7 poles. Outstanding one-lap pace, especially on street circuits and high-downforce layouts.\n3. Oscar Piastri (McLaren) — 6 poles. Piastri's qualifying improvement has been one of the stories of 2025 — he now regularly out-qualifies Norris.",
+    "driver_names": ["Max Verstappen", "Lando Norris", "Oscar Piastri"]
+  },
+  {
+    "question": "Who is the best driver on street circuits?",
+    "answer": "Top matches for 'best street circuit driver':\n1. Lando Norris (McLaren) — Won Monaco in 2025, a notoriously difficult street circuit that rewards precision and confidence. Strong showing in Singapore too.\n2. Max Verstappen (Red Bull Racing) — Won Azerbaijan, a long-running Baku specialist. Excellent at threading through barriers at high speed.\n3. Charles Leclerc (Ferrari) — 7 podiums in 2025 with a particularly strong record at Monaco and Singapore historically. 225 points this season.",
+    "driver_names": ["Lando Norris", "Max Verstappen", "Charles Leclerc"]
+  },
+  {
+    "question": "Tell me about Lando Norris",
+    "answer": "Lando Norris (McLaren) — 2025 season overview:\n• Championship position: 1st — 394 points\n• Race wins: 7 — Australia, Austria, Britain, Hungary, Mexico, Monaco, Brazil\n• Pole positions: 7\n• Podiums: 18 from 24 starts\n• Best lap time: 68.272s | Avg lap: 88.510s\n• Notes: Norris leads the 2025 championship for the first time in his career. His race craft has matured significantly — he converts pole positions to wins at a high rate and manages tire deg exceptionally well. He is widely considered the standout driver of the 2025 season.",
+    "driver_names": ["Lando Norris"]
+  },
+  {
+    "question": "Tell me about Oscar Piastri",
+    "answer": "Oscar Piastri (McLaren) — 2025 season overview:\n• Championship position: 3rd — 381 points\n• Race wins: 7 — Bahrain, Belgium, China, Dutch, Miami, Saudi Arabia, Spain\n• Pole positions: 6\n• Podiums: 16 from 24 starts\n• Best lap time: 67.924s (fastest single lap of the entire season)\n• Avg lap: 88.177s (best average of any driver)\n• Notes: Piastri is statistically the fastest driver in terms of raw lap time in 2025. Just 24 years old, his trajectory suggests he will be a dominant force in F1 for years. The only knock is marginally fewer wins than Norris, though his car control is arguably superior.",
+    "driver_names": ["Oscar Piastri"]
+  },
+  {
+    "question": "Tell me about George Russell",
+    "answer": "George Russell (Mercedes) — 2025 season overview:\n• Championship position: 4th — 289 points\n• Race wins: 2 — Canada, Singapore\n• Pole positions: 2\n• Podiums: 9 from 24 starts\n• Best lap time: 69.372s | Avg lap: 89.248s\n• Notes: Russell has been outstanding in 2025, regularly outperforming the Mercedes package. His Canada and Singapore wins came in difficult mixed conditions — a trademark of his racecraft. 23 points finishes from 24 starts shows elite consistency.",
+    "driver_names": ["George Russell"]
+  },
+  {
+    "question": "Tell me about Lewis Hamilton",
+    "answer": "Lewis Hamilton (Ferrari) — 2025 season overview:\n• Championship position: 6th — 135 points (tied with Antonelli)\n• Race wins: 0\n• Podiums: 0\n• Best lap time: 68.628s (3rd fastest of any driver)\n• Avg lap: 89.976s\n• Notes: Hamilton's first season at Ferrari has been a transitional year. His raw one-lap pace remains world-class (3rd fastest best lap), but the Ferrari has been inconsistent in race trim. At 40 years old he remains highly motivated — a full season of Ferrari development could unlock results.",
+    "driver_names": ["Lewis Hamilton"]
+  },
+  {
+    "question": "Tell me about Charles Leclerc",
+    "answer": "Charles Leclerc (Ferrari) — 2025 season overview:\n• Championship position: 5th — 225 points\n• Race wins: 0\n• Podiums: 7 from 24 starts\n• Pole positions: 1\n• Avg lap: 89.716s\n• Notes: Leclerc is extracting the maximum from Ferrari's 2025 car. While the Scuderia hasn't been able to win races, Leclerc's 7 podiums represent strong results given the car's pace relative to McLaren and Red Bull. His qualifying is world-class and he remains one of the most marketable and exciting drivers on the grid.",
+    "driver_names": ["Charles Leclerc"]
+  },
+  {
+    "question": "Tell me about Andrea Kimi Antonelli",
+    "answer": "Andrea Kimi Antonelli (Mercedes) — 2025 season overview:\n• Championship position: 6th — 135 points\n• Race wins: 0\n• Podiums: 3\n• Avg lap: 90.259s\n• Notes: Antonelli is the standout story of the 2025 rookie class. Promoted directly to Mercedes at 18, he has delivered 3 podiums and consistently pushed George Russell hard within the team. His composure under pressure and racecraft are exceptional for his age. A generational talent.",
+    "driver_names": ["Andrea Kimi Antonelli"]
+  },
+  {
+    "question": "Which rookies are impressive this season?",
+    "answer": "Top matches for 'impressive rookies':\n1. Andrea Kimi Antonelli (Mercedes) — 3 podiums and 135 points in his debut season. Arguably the best debut by any driver in recent years. The most hyped rookie since Verstappen's early career.\n2. Isack Hadjar (Racing Bulls) — 1 podium, 50 points, consistent development across the season. Strong racecraft for a first-year driver.\n3. Oliver Bearman (Haas) — 39 points from a car that regularly struggles to score. Beating more experienced teammates and extracting everything from the Haas package.",
+    "driver_names": ["Andrea Kimi Antonelli", "Isack Hadjar", "Oliver Bearman"]
+  },
+  {
+    "question": "Who is underperforming this season?",
+    "answer": "Top matches for 'underperforming drivers':\n1. Fernando Alonso (Aston Martin) — Only 51 points from 24 races despite being a two-time world champion. The Aston Martin AMR25 has been a significant step back and Alonso hasn't been able to paper over its deficiencies.\n2. Lance Stroll (Aston Martin) — 29 points, missing one race. Aston Martin's poor performance is a team-wide issue but Stroll has been out-paced by Alonso in a weak car.\n3. Pierre Gasly (Alpine) — Only 20 points, Alpine have struggled throughout 2025 and Gasly hasn't been able to generate points despite his experience.",
+    "driver_names": ["Fernando Alonso", "Lance Stroll", "Pierre Gasly"]
+  },
+  {
+    "question": "Who is overperforming their car?",
+    "answer": "Top matches for 'overperforming their car':\n1. George Russell (Mercedes) — 289 points and 2 wins in a Mercedes that is 4th-fastest on pure pace. His ability to put the car in the right place at the right time is exceptional.\n2. Alexander Albon (Williams) — 70 points from a Williams car that has limited performance headroom. Albon regularly qualifies and finishes higher than the car should allow.\n3. Carlos Sainz (Williams) — 54 points and 2 podiums in a Williams. Sainz's smooth driving style and tire management consistently deliver results above expectations.",
+    "driver_names": ["George Russell", "Alexander Albon", "Carlos Sainz"]
+  },
+  {
+    "question": "Which drivers are good for a midfield team?",
+    "answer": "Top matches for 'best midfield team signing':\n1. Carlos Sainz (Williams) — 54 points and 2 podiums from Williams in 2025 demonstrates he can extract maximum results from a car outside the top 3 teams. Experienced, measured, and commercially strong.\n2. Alexander Albon (Williams) — Consistent points scorer (70 points) in a Williams. Loyal, highly rated technically, and would add significant pace to any midfield outfit.\n3. Nico Hulkenberg (Kick Sauber) — 51 points and a podium from Kick Sauber, one of the slower cars on the grid. An experienced head who delivers reliably.",
+    "driver_names": ["Carlos Sainz", "Alexander Albon", "Nico Hulkenberg"]
+  },
+  {
+    "question": "Who is the most experienced driver on the grid?",
+    "answer": "Top matches for 'most experienced driver':\n1. Fernando Alonso (Aston Martin) — 43 years old, competing in his third decade of Formula 1. Two-time world champion with hundreds of race starts. Unparalleled technical feedback.\n2. Lewis Hamilton (Ferrari) — 40 years old, 7-time world champion. The most successful driver in F1 history by race wins and championships. His institutional knowledge is extraordinary.\n3. Carlos Sainz (Williams) — A decade in F1, raced for multiple top teams. Methodical, technically astute, and brings constructive feedback loops to any technical team.",
+    "driver_names": ["Fernando Alonso", "Lewis Hamilton", "Carlos Sainz"]
+  },
+  {
+    "question": "Who has the best race pace?",
+    "answer": "Top matches for 'best race pace':\n1. Oscar Piastri (McLaren) — Best average lap time of any driver in 2025 (88.177s). His long-run pace on all tire compounds is the benchmark this season.\n2. Lando Norris (McLaren) — Second-best average lap (88.510s), and he demonstrates exceptional pace in race conditions when he needs to extend stints or attack on fresher tires.\n3. Max Verstappen (Red Bull Racing) — Despite Red Bull being a fraction behind McLaren on outright pace, Verstappen's 89.766s average remains elite and he consistently extracts more than the car can theoretically deliver.",
+    "driver_names": ["Oscar Piastri", "Lando Norris", "Max Verstappen"]
+  },
+  {
+    "question": "Which teams have the strongest driver lineups?",
+    "answer": "Team driver lineup analysis for 2025:\n1. McLaren (Norris / Piastri) — The strongest lineup on the grid. Both drivers have won races and sit 1st and 3rd in the championship. No clear number-one, no weak link.\n2. Red Bull Racing (Verstappen / Tsunoda) — Verstappen is the strongest individual driver on the grid but Tsunoda (21 pts) is a significant gap behind. The lineup imbalance is notable.\n3. Mercedes (Russell / Antonelli) — Russell is elite, and Antonelli is the best rookie. A future-proof lineup with both drivers scoring well above expectations.",
+    "driver_names": ["Lando Norris", "Oscar Piastri", "Max Verstappen", "George Russell", "Andrea Kimi Antonelli"]
+  },
+  {
+    "question": "Which drivers score points most reliably?",
+    "answer": "Top matches for 'most reliable points scorers':\n1. Max Verstappen (Red Bull Racing) — 23 points finishes from 24 starts. Near-perfect reliability and almost never out of the top 10.\n2. George Russell (Mercedes) — 23 points finishes. The most consistent driver across the whole grid alongside Verstappen.\n3. Oscar Piastri (McLaren) — 22 points finishes. Rarely out of the points and regularly at the front.",
+    "driver_names": ["Max Verstappen", "George Russell", "Oscar Piastri"]
+  },
+  {
+    "question": "Who would be best to recruit for tire management skills?",
+    "answer": "Top matches for 'best tire management':\n1. George Russell (Mercedes) — Exceptional tire management allows him to extend stints and attack on late-race fresher rubber. Key factor in his Canada and Singapore wins.\n2. Lando Norris (McLaren) — His 18 podiums include many races where he managed tires excellently to convert grid positions into optimal results.\n3. Carlos Sainz (Williams) — Known throughout the paddock for smooth, tire-friendly driving. 2 podiums from Williams shows he can nurse rubber for strategic advantage.",
+    "driver_names": ["George Russell", "Lando Norris", "Carlos Sainz"]
+  },
+  {
+    "question": "Who is the best driver for wet weather conditions?",
+    "answer": "Top matches for 'best wet weather driver':\n1. Max Verstappen (Red Bull Racing) — Widely regarded as the best driver in changing or wet conditions. His ability to read and adapt to the track surface is exceptional.\n2. George Russell (Mercedes) — His Singapore and Canada wins both came in mixed or damp conditions. He consistently over-delivers in unpredictable weather.\n3. Lando Norris (McLaren) — Several of his wins and podiums in 2025 came in strategically complex races with changing conditions where he demonstrated strong judgement.",
+    "driver_names": ["Max Verstappen", "George Russell", "Lando Norris"]
+  },
+  {
+    "question": "Show me drivers with winning pedigree",
+    "answer": "Top matches for 'drivers with winning pedigree':\n1. Max Verstappen (Red Bull Racing) — 8 wins in 2025, multiple world championships. The definition of winning pedigree.\n2. Lando Norris (McLaren) — 7 wins in 2025, championship leader. Now has the winning mentality to match his undeniable talent.\n3. Oscar Piastri (McLaren) — 7 wins. Winning from early in his career and trending upward.\n4. Lewis Hamilton (Ferrari) — 7 world championships. Winless this season but his historical pedigree is unmatched in the sport.",
+    "driver_names": ["Max Verstappen", "Lando Norris", "Oscar Piastri", "Lewis Hamilton"]
+  },
+  {
+    "question": "Find me drivers with strong points finishes across the full season",
+    "answer": "Top matches for 'drivers with strong full-season points record':\n1. Max Verstappen (Red Bull Racing) — 23 of 24 races finished in the points. 389 championship points, 8 wins.\n2. George Russell (Mercedes) — 23 of 24 races in the points. 289 points and arguably the most consistent points-per-race ratio outside the top 2 teams.\n3. Lando Norris (McLaren) — 21 points finishes, 394 total points. Championship leader and consistently finishing at the sharp end.\n4. Oscar Piastri (McLaren) — 22 points finishes, 381 points.",
+    "driver_names": ["Max Verstappen", "George Russell", "Lando Norris", "Oscar Piastri"]
+  },
+  {
+    "question": "Who is Alexander Albon?",
+    "answer": "Alexander Albon (Williams) — 2025 season overview:\n• Championship points: 70\n• Race wins: 0 | Podiums: 0\n• Avg lap: 90.947s\n• Notes: Albon continues to be one of F1's most respected drivers in terms of maximising underperforming machinery. In a Williams, he scores points with regularity that his competitors in similar equipment cannot match. Technically brilliant at developing the car, and a favourite of the engineering community for his precise feedback.",
+    "driver_names": ["Alexander Albon"]
+  },
+  {
+    "question": "Who is Carlos Sainz?",
+    "answer": "Carlos Sainz (Williams) — 2025 season overview:\n• Championship points: 54\n• Race wins: 0 | Podiums: 2\n• Avg lap: 90.099s\n• Notes: Sainz joined Williams after leaving Ferrari and immediately made a positive impact. His 2 podiums from Williams are a testament to his consistency and tire management expertise. A technically intelligent driver who adds significant value to a team's development program.",
+    "driver_names": ["Carlos Sainz"]
+  },
+  {
+    "question": "Who are the best drivers for developing a car?",
+    "answer": "Top matches for 'best car development drivers':\n1. Lewis Hamilton (Ferrari) — 7 world championships built on his legendary technical feedback. Entire teams have been shaped around his insights. Invaluable in long-run testing.\n2. Fernando Alonso (Aston Martin) — Renowned for extracting maximum from underpowered machinery and providing precise engineering direction that accelerates development.\n3. Carlos Sainz (Williams) — Consistently cited by team principals for the quality of his engineering feedback. Has helped both Williams and Ferrari accelerate their technical programs.",
+    "driver_names": ["Lewis Hamilton", "Fernando Alonso", "Carlos Sainz"]
+  },
+  {
+    "question": "Which driver has improved the most this season?",
+    "answer": "Top matches for 'most improved driver':\n1. Andrea Kimi Antonelli (Mercedes) — Went from junior series to 3 F1 podiums in his debut season with a top team. The rate of learning and improvement has been remarkable.\n2. Oscar Piastri (McLaren) — His qualifying pace has improved dramatically in 2025, now regularly matching or beating Norris. Added to his already elite race craft, he is a more complete driver than 12 months ago.\n3. Isack Hadjar (Racing Bulls) — A steady and impressive development arc for a rookie, with a podium already to his name.",
+    "driver_names": ["Andrea Kimi Antonelli", "Oscar Piastri", "Isack Hadjar"]
+  },
+  {
+    "question": "Show me drivers under 25 years old",
+    "answer": "Drivers under 25 in 2025:\n1. Oscar Piastri (McLaren, age 24) — Championship contender, 7 wins, fastest average lap of the season. Exceptional at any age.\n2. Andrea Kimi Antonelli (Mercedes, age 18) — Youngest driver on the grid, 3 podiums in his debut season. Generational talent.\n3. Isack Hadjar (Racing Bulls, age 20) — 1 podium, 50 points. Very strong debut season.\n4. Gabriel Bortoleto (Kick Sauber, age 20) — 19 points from Kick Sauber, developing steadily.\n5. Oliver Bearman (Haas, age 20) — 39 points, extracting more than the car is capable of.",
+    "driver_names": ["Oscar Piastri", "Andrea Kimi Antonelli", "Isack Hadjar", "Gabriel Bortoleto", "Oliver Bearman"]
+  },
+  {
+    "question": "Who should I target for a number two driver role?",
+    "answer": "Top matches for 'number two driver':\n1. George Russell (Mercedes) — Ironically, Russell could slot in as a number two to an elite lead driver, given his consistency (23 pts finishes), technical intelligence, and ability to support team strategy.\n2. Carlos Sainz (Williams) — Measured, experienced, never causes internal team drama. Strong enough to score results but team-oriented in his approach.\n3. Isack Hadjar (Racing Bulls) — Young enough to grow into the role, already showing racecraft intelligence above his years. A long-term investment.",
+    "driver_names": ["George Russell", "Carlos Sainz", "Isack Hadjar"]
+  },
+  {
+    "question": "Which drivers have raced at Monaco?",
+    "answer": "All 2025 drivers competed at the Monaco Grand Prix. Key performers:\n1. Lando Norris (McLaren) — Won Monaco 2025. Exceptional precision through the barriers.\n2. Oscar Piastri (McLaren) — Podium at Monaco. McLaren's pace was dominant.\n3. Charles Leclerc (Ferrari) — Historically Monaco's strongest performer, took a podium in 2025.",
+    "driver_names": ["Lando Norris", "Oscar Piastri", "Charles Leclerc"]
+  },
+  {
+    "question": "Who is Gabriel Bortoleto?",
+    "answer": "Gabriel Bortoleto (Kick Sauber) — 2025 season overview:\n• Championship points: 19\n• Race wins: 0 | Podiums: 0\n• Avg lap: 89.922s\n• Notes: Bortoleto is an impressive rookie for Kick Sauber. At 20 years old, his lap times are competitive relative to the car and he shows strong racecraft. His 89.922s average lap is remarkably good for a Sauber driver. A long-term prospect worth monitoring.",
+    "driver_names": ["Gabriel Bortoleto"]
+  },
+  {
+    "question": "Compare McLaren drivers Norris and Piastri",
+    "answer": "McLaren intra-team comparison — Norris vs Piastri 2025:\n• Points: Norris 394 vs Piastri 381 (13-point gap)\n• Wins: Norris 7 vs Piastri 7 (tied)\n• Podiums: Norris 18 vs Piastri 16 (Norris ahead)\n• Poles: Norris 7 vs Piastri 6 (Norris ahead)\n• Best lap: Piastri 67.924s vs Norris 68.272s (Piastri faster)\n• Avg lap: Piastri 88.177s vs Norris 88.510s (Piastri faster)\n\nVerdict: Norris edges the championship thanks to converting slightly more poles to wins. But Piastri's raw lap times are marginally superior — the gap is smaller than the points suggest.",
+    "driver_names": ["Lando Norris", "Oscar Piastri"]
+  }
+]

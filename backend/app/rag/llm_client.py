@@ -77,3 +77,41 @@ class LLMClient:
             "explanation": explanation,
             "token_count": token_count,
         }
+
+    async def get_betting_prediction(self, race_context: str, prompt: str, max_picks: int) -> dict:
+        """
+        Ask Groq (Llama) to produce betting picks from the retrieved driver context.
+        Returns {"picks": [...], "summary": str, "token_count": int}
+        """
+        response = await self._client.chat.completions.create(
+            model=settings.groq_chat_model,
+            response_format={"type": "json_object"},
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You are an expert F1 betting analyst. "
+                        "Return only valid JSON matching the requested schema."
+                    ),
+                },
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.3,
+        )
+
+        token_count = response.usage.total_tokens if response.usage else 0
+        raw = response.choices[0].message.content or "{}"
+
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError:
+            data = {}
+
+        picks = data.get("picks", [])[:max_picks]
+        summary = data.get("summary", f"Betting analysis for: {race_context}")
+
+        return {
+            "picks": picks,
+            "summary": summary,
+            "token_count": token_count,
+        }

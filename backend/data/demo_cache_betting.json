@@ -1,0 +1,725 @@
+[
+  {
+    "question": "Who should I bet on to win the drivers championship?",
+    "summary": "The 2025 Drivers Championship is a three-way McLaren vs Red Bull battle. Norris leads by 5 points over Verstappen with Piastri close behind. Norris and Piastri's consistency gives McLaren the edge as a team, but Verstappen's individual brilliance keeps him in the hunt every weekend.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Championship leader with 394 points, 7 wins and 18 podiums. McLaren's car pace and Norris's consistency make him the favourite to close out the title."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "medium",
+        "reason": "8 race wins and 389 points. Only 5 points behind Norris. His ruthless ability to convert opportunities makes him a constant championship threat."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "381 points and 7 wins. Statistically has the fastest raw lap time this season. Still in mathematical contention and could benefit if Norris and Verstappen clash."
+      }
+    ]
+  },
+  {
+    "question": "Who are the best picks for a race win this weekend?",
+    "summary": "Any race in 2025 effectively comes down to three drivers. Verstappen leads race wins with 8, while Norris and Piastri each have 7. McLaren's overall pace makes them the favourite at most circuits, but Verstappen's Red Bull excels at high-speed layouts.",
+    "picks": [
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Most race wins of the season (8). Unmatched racecraft and an extraordinary ability to win from any grid position."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "7 wins in 2025, including dominant performances in Monaco and Britain. The McLaren is the fastest car and Norris is the most complete driver."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "7 wins and the fastest raw lap time of the season. Particularly strong at technical circuits like China and Spain."
+      }
+    ]
+  },
+  {
+    "question": "Give me safe podium picks",
+    "summary": "For reliable podium bets across a typical 2025 race weekend, McLaren and Verstappen are nailed-on front-runners. George Russell provides the best outside bet for a podium from a non-McLaren/Red Bull.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "18 podiums from 24 races. The most reliable podium finisher on the grid. The McLaren MCL39's consistent front-running performance makes him an almost certain top-3."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "16 podiums from 24 starts. Statistically podiums in 67% of races — exceptional value for a podium bet."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "15 podiums from 24 races (63%). The Red Bull is fast enough to challenge McLaren for the podium places at every circuit."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "9 podiums in 2025. The best bet outside the McLaren-Verstappen group. Particularly strong at circuits suiting Mercedes' car balance."
+      }
+    ]
+  },
+  {
+    "question": "Best bets for Monaco Grand Prix",
+    "summary": "Monaco rewards precision, qualifying pace, and overtaking skill — or rather, the ability to avoid needing to overtake. Norris won Monaco in 2025, and McLaren's qualifying advantage makes them the runaway pick at a track where grid position is everything.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Monaco 2025. McLaren's extraordinary qualifying pace (7 poles for Norris) is perfectly suited to Monaco where pole position converts to victory at a very high rate."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "McLaren 1-2 at Monaco is realistic given their pace advantage. Piastri's precision driving style suits the tight barriers."
+      },
+      {
+        "driver_id": "leclerc",
+        "driver_name": "Charles Leclerc",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Historically Monaco is Leclerc's strongest circuit. Ferrari's 2025 car is third-quickest and he could capitalise on any McLaren/Red Bull misfortune."
+      }
+    ]
+  },
+  {
+    "question": "Best betting picks for a high-speed circuit",
+    "summary": "At high-speed circuits like Monza, Spa, or Silverstone, top-speed and power-unit performance become critical. McLaren and Red Bull dominate, but the characteristics of each circuit can shift the advantage. Verstappen won Italy (Monza) in 2025.",
+    "picks": [
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Monza and Emilia Romagna in 2025 — two of the fastest layouts on the calendar. Red Bull's top speed advantage is most pronounced at power-sensitive circuits."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "Won Silverstone (British GP) in 2025. McLaren's aerodynamic efficiency performs well across high-speed sections."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Mercedes' power unit strength makes Russell a genuine podium contender at full-throttle circuits. Won Canada in 2025 on a power-unit-friendly layout."
+      }
+    ]
+  },
+  {
+    "question": "Best bets for a street circuit race",
+    "summary": "Street circuits reward precision, qualifying pace, and calm nerves under pressure. Norris won Monaco and Verstappen won Baku (Azerbaijan) in 2025. Russell won Singapore. The three different winners reflect that street circuits can throw up surprises.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Monaco 2025. McLaren's qualifying edge and Norris's precision make him the go-to bet at any street circuit."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Azerbaijan (Baku) 2025. A proven specialist at street circuits requiring bravery and car placement near walls."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Won Singapore 2025 — a notoriously difficult street circuit. Excellent value at longer odds at any urban layout."
+      }
+    ]
+  },
+  {
+    "question": "Who should I include in my fantasy F1 team?",
+    "summary": "For maximum points in fantasy F1, you want drivers combining wins, podiums, fastest laps, and reliability. The McLaren pair are non-negotiable. Verstappen and Russell round out a balanced top-4.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Championship leader — 7 wins, 18 podiums, 7 poles. Maximum fantasy points potential every race weekend."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "7 wins, 16 podiums, 6 poles. Almost identical value to Norris and often selected as second McLaren pick."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "8 wins and 8 poles leads the grid. High fantasy ceiling every race with win potential at every circuit."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "2 wins, 9 podiums, 2 poles. Brilliant value at Mercedes pricing. Rarely outside the top 5."
+      }
+    ]
+  },
+  {
+    "question": "Who are the best value underdog bets?",
+    "summary": "Outside the top three drivers, value bets exist for drivers consistently over-delivering relative to their car's pace. Russell is the best value mid-tier pick, while Albon and Sainz can be worth a points-finish bet in the right conditions.",
+    "picks": [
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "win",
+        "confidence": "medium",
+        "reason": "2 wins from a 4th-fastest Mercedes. His wins at Canada and Singapore showed he can capitalise on chaos or mixed conditions. Great odds relative to his ability."
+      },
+      {
+        "driver_id": "sainz",
+        "driver_name": "Carlos Sainz",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "2 podiums from Williams — one of the slowest cars on the grid. Excellent bet at long odds for a chaotic race."
+      },
+      {
+        "driver_id": "albon",
+        "driver_name": "Alexander Albon",
+        "bet_type": "points_finish",
+        "confidence": "high",
+        "reason": "70 points from Williams. Consistently in the top 10 when the car allows. Reliable points-finish bet at good value odds."
+      }
+    ]
+  },
+  {
+    "question": "Who should I avoid betting on?",
+    "summary": "Several drivers have shown limited ability to convert race opportunities in 2025. Alpine's lineup and the Stroll/Alonso pairing at Aston Martin have disappointed. High DNF rates and points drought make them poor betting choices.",
+    "picks": [
+      {
+        "driver_id": "gasly",
+        "driver_name": "Pierre Gasly",
+        "bet_type": "points_finish",
+        "confidence": "low",
+        "reason": "Only 20 points all season from Alpine. Regularly affected by unreliability. Poor bet at any price."
+      },
+      {
+        "driver_id": "stroll",
+        "driver_name": "Lance Stroll",
+        "bet_type": "points_finish",
+        "confidence": "low",
+        "reason": "Just 29 points from 23 starts. Aston Martin's poor car limits even experienced drivers, but Stroll has been out-paced consistently."
+      },
+      {
+        "driver_id": "colapinto",
+        "driver_name": "Franco Colapinto",
+        "bet_type": "points_finish",
+        "confidence": "low",
+        "reason": "0 points from 18 races with Alpine. The car is simply not fast enough for points in most conditions."
+      }
+    ]
+  },
+  {
+    "question": "Best bets for wet weather race",
+    "summary": "Wet conditions are where great drivers separate themselves from the pack. Verstappen is widely regarded as the best wet-weather performer, while Russell and Norris have also shown exceptional wet-track ability in 2025.",
+    "picks": [
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "The consensus best wet-weather driver in F1. His car control in standing water or changeable conditions is exceptional and consistently makes him the standout pick."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "Both his 2025 race wins (Canada and Singapore) came in difficult mixed/damp conditions. An outstanding wet-track performer."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Has shown strong wet-weather awareness and good strategic calls in changing conditions throughout 2025."
+      }
+    ]
+  },
+  {
+    "question": "Who is most likely to get pole position?",
+    "summary": "Pole position in 2025 has been dominated by the McLaren and Verstappen. Verstappen leads with 8 poles, Norris has 7 and Piastri 6. These three are the only realistic bets for pole at any race weekend.",
+    "picks": [
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "8 poles — more than any other driver. His Q3 aggression and ability to find the limit is exceptional, particularly at circuits with long high-speed sections."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "7 poles — McLaren's qualifying excellence and Norris's lap accuracy make him the key pole contender at street and medium-speed circuits."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "win",
+        "confidence": "medium",
+        "reason": "6 poles. Has recorded the fastest individual lap time of the season (67.924s). Don't overlook him if Norris has any mechanical issues in Q3."
+      }
+    ]
+  },
+  {
+    "question": "Give me betting predictions for the Australian Grand Prix",
+    "summary": "The 2025 Australian Grand Prix in Melbourne was won by Lando Norris from pole position. The McLaren MCL39 was dominant in the cooler Melbourne conditions, with Verstappen narrowly edging Russell for second place.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won the 2025 Australian GP from pole. McLaren's pace advantage at Albert Park was clear, with Norris leading from lights to flag."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "Finished second in Melbourne. Red Bull's race-pace was strong, keeping them within range of McLaren at a circuit they typically perform well at."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Third place in Australia — Mercedes performed well in Melbourne's cool conditions. A reliable podium bet for the opening round."
+      }
+    ]
+  },
+  {
+    "question": "Give me betting predictions for the Monaco Grand Prix",
+    "summary": "The Monaco Grand Prix was won by Lando Norris in 2025. The narrow streets reward qualifying pace above all else and McLaren's package was perfectly suited. Verstappen struggled to pass on the tight layout.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Monaco 2025. His pole position was converted to victory at a track where overtaking is nearly impossible — a dominant performance."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "McLaren's second car is the safest podium bet at Monaco after Norris. The car's low-speed grip and downforce levels suit the twisty layout."
+      },
+      {
+        "driver_id": "leclerc",
+        "driver_name": "Charles Leclerc",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Historically Monaco is Leclerc's best circuit. Ferrari's setup and his familiarity with the street layout make him a solid outside bet for the final podium spot."
+      }
+    ]
+  },
+  {
+    "question": "Predictions for the British Grand Prix at Silverstone",
+    "summary": "The British Grand Prix was won by Lando Norris in 2025 — very much a home crowd celebration. Silverstone's high-speed layout suits McLaren's car and Norris's aggressive style. Verstappen and Piastri completed the podium.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Silverstone 2025 in front of a passionate home crowd. The British GP suits McLaren's aerodynamic strengths at high-speed corners."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "McLaren 1-2 at Silverstone is very plausible — the car is best suited to the fast, flowing layout."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "Finished on the Silverstone podium. Red Bull's top speed makes Verstappen a constant threat on the long straights."
+      }
+    ]
+  },
+  {
+    "question": "Who is the best bet for the Italian Grand Prix at Monza",
+    "summary": "The Italian Grand Prix at Monza — the Temple of Speed — rewards low-drag setups and raw engine power. Verstappen won Monza in 2025. The circuit's power-sensitive characteristics can shuffle the pecking order away from McLaren's usual advantage.",
+    "picks": [
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Monza 2025. Red Bull's power-unit performance advantage at full-throttle circuits makes Verstappen a strong favourite at Italy."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Mercedes' power unit is strong at Monza. Russell consistently performs above expectations at power-sensitive circuits."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "McLaren sacrifices some top speed for downforce — Norris may not be on pole but consistently finishes in the top 3."
+      }
+    ]
+  },
+  {
+    "question": "Betting picks for the Japanese Grand Prix at Suzuka",
+    "summary": "Suzuka is a driver's circuit that rewards commitment and technical precision. Verstappen won Japan in 2025, where Red Bull has traditionally excelled. The high-speed sweeping corners at Suzuka suit Verstappen's aggressive style.",
+    "picks": [
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Suzuka 2025. A track that rewards courage in the high-speed sections — exactly where Verstappen excels. A circuit he dominates historically."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "McLaren's downforce-intensive package is well-suited to Suzuka's complex corners. Norris is always a top-3 contender."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "Piastri's car control and smoothness through sustained high-speed sections like the Esses and Spoon make him a podium bet at Suzuka."
+      }
+    ]
+  },
+  {
+    "question": "Who should I back for a points finish this weekend?",
+    "summary": "The safest points-finish bets are always the McLaren and Red Bull drivers. Beyond them, George Russell at Mercedes and Alexander Albon at Williams offer the best odds-adjusted value for a top-10 finish bet.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "points_finish",
+        "confidence": "high",
+        "reason": "21 points finishes from 24 starts in 2025. Almost certain to be in the top 10 at any circuit."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "points_finish",
+        "confidence": "high",
+        "reason": "23 from 24 races finished in the points. The most reliable top-10 finisher on the entire grid."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "points_finish",
+        "confidence": "high",
+        "reason": "23 points finishes from 24 starts. Exceptional reliability and consistent pace make him the safest outside-top-3 points bet."
+      },
+      {
+        "driver_id": "albon",
+        "driver_name": "Alexander Albon",
+        "bet_type": "points_finish",
+        "confidence": "medium",
+        "reason": "70 points from Williams — consistently extracts top-10 results from a car that should rarely score. Good value at longer odds."
+      }
+    ]
+  },
+  {
+    "question": "McLaren vs Red Bull — which team should I back?",
+    "summary": "In 2025 McLaren have the edge as a team — their combined points total from Norris and Piastri exceeds Red Bull's. However, Verstappen individually leads race wins (8) and is a constant threat. For outright team betting, McLaren are the safer pick. For a single driver win bet, Verstappen offers the best odds.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "McLaren's championship leader. Better overall consistency than Verstappen in 2025 — 18 podiums versus Verstappen's 15."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "8 wins is more than any individual driver. If you're backing one driver to win a specific race, Verstappen's ceiling is the highest."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "McLaren's second driver — equally capable of winning on any given weekend. Adds depth to the McLaren betting case."
+      }
+    ]
+  },
+  {
+    "question": "Best bets for the Las Vegas Grand Prix",
+    "summary": "The Las Vegas Grand Prix was won by Max Verstappen in 2025. The long straights on the Las Vegas Strip reward top speed and power-unit performance, giving Red Bull and Verstappen an advantage over the more downforce-dependent McLaren.",
+    "picks": [
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Las Vegas 2025. The power-hungry layout with long straight sections suits Red Bull's power unit advantage. Verstappen is the clear favourite here."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "McLaren's race pace keeps Norris in podium contention even where the circuit doesn't suit their strengths perfectly."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Mercedes' powerful PU makes Russell a podium contender on the straights-heavy Las Vegas layout. Good value odds."
+      }
+    ]
+  },
+  {
+    "question": "Who are the best rookie bets this season?",
+    "summary": "The 2025 rookie class has impressed significantly. Antonelli at Mercedes is the standout — already scoring podiums in his debut year. Hadjar at Racing Bulls and Bearman at Haas have also delivered beyond expectations.",
+    "picks": [
+      {
+        "driver_id": "antonelli",
+        "driver_name": "Andrea Kimi Antonelli",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "3 podiums already in his debut season. Mercedes have given him a race-winning car and he is taking full advantage. Best rookie bet for podiums."
+      },
+      {
+        "driver_id": "hadjar",
+        "driver_name": "Isack Hadjar",
+        "bet_type": "points_finish",
+        "confidence": "high",
+        "reason": "1 podium and 50 points from Racing Bulls. Consistent points scorer — a reliable top-10 bet at favourable circuits."
+      },
+      {
+        "driver_id": "bearman",
+        "driver_name": "Oliver Bearman",
+        "bet_type": "points_finish",
+        "confidence": "medium",
+        "reason": "39 points from Haas — consistently outperforming the car's potential. A points-finish bet at circuits where Haas performs competitively."
+      }
+    ]
+  },
+  {
+    "question": "Give me predictions for the Abu Dhabi Grand Prix",
+    "summary": "The Abu Dhabi Grand Prix closed the 2025 season with a Verstappen win. The Yas Marina circuit's mix of straights and medium-speed corners suits Red Bull's package, and it proved the perfect finale circuit for Verstappen to assert himself.",
+    "picks": [
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Abu Dhabi 2025. The Yas Marina circuit rewards the combination of top speed on the straights and precision in the technical sections — Verstappen's speciality."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "McLaren's consistent front-running pace means Norris is always in the mix, even at circuits where Red Bull's strengths are most pronounced."
+      },
+      {
+        "driver_id": "leclerc",
+        "driver_name": "Charles Leclerc",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Ferrari performed solidly at Abu Dhabi and Leclerc's 7 podiums this season show the car can challenge for third. Worth a bet at decent odds."
+      }
+    ]
+  },
+  {
+    "question": "Who is the safest bet to get a fastest lap bonus point?",
+    "summary": "Fastest lap bonus points in F1 go to whoever sets the quickest lap while finishing inside the top 10. McLaren drivers are the most likely candidates given their raw lap-time advantage, but late-stopping strategies can see any top driver claim it.",
+    "picks": [
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Posted the single fastest lap of the entire 2025 season (67.924s). His raw one-lap speed on fresh rubber is the highest of any driver — the best bet for a fastest lap bonus."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Second-fastest best lap of the season (68.272s). If Piastri doesn't set it, Norris will. McLaren's outright pace means fastest lap almost always goes to one of them."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Red Bull's late-race strategies often position Verstappen on fresh tires for a fastest-lap attempt. A credible outside bet particularly at power circuits."
+      }
+    ]
+  },
+  {
+    "question": "Best bets for the Brazilian Grand Prix at Interlagos",
+    "summary": "The Brazilian Grand Prix was won by Lando Norris in 2025 at Interlagos. The undulating, medium-speed circuit rewards strong mechanical grip and race-craft in what are often unpredictable conditions. McLaren's race pace was exceptional.",
+    "picks": [
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Interlagos 2025. McLaren's race pace is outstanding at this circuit and Norris has the racecraft to manage any safety car or weather chaos."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "Brazil can produce chaotic races — Verstappen's ability to manage pressure and extract everything from his car makes him a near-certain podium pick."
+      },
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Mercedes performs well in South American conditions. Russell's racecraft in unpredictable situations makes him a value podium bet at Interlagos."
+      }
+    ]
+  },
+  {
+    "question": "Who is the best bet for the Singapore Grand Prix",
+    "summary": "The Singapore Grand Prix was won by George Russell in 2025. The Marina Bay street circuit is notoriously demanding — it is long, hot and humid, with 23 corners and a heavy reliance on downforce. Russell's discipline and consistent lap times proved decisive.",
+    "picks": [
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Singapore 2025. His ability to maintain consistent lap times over a long, hot race and manage tire degradation perfectly made him the deserving winner."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "McLaren's high-downforce setup suits Singapore's slow corners. A podium is the most reliable bet for Norris at this layout."
+      },
+      {
+        "driver_id": "leclerc",
+        "driver_name": "Charles Leclerc",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "Ferrari's high-downforce configuration performs well at Singapore. Leclerc's 7 podiums this season indicate the car can challenge for the bottom step of the podium."
+      }
+    ]
+  },
+  {
+    "question": "Predictions for the Canadian Grand Prix in Montreal",
+    "summary": "The Canadian Grand Prix was won by George Russell in 2025. The Circuit Gilles Villeneuve rewards a strong power unit and late-braking ability into the chicanes. Mercedes performed superbly with their power unit advantage, and rain at some stages of the weekend amplified Russell's wet-track mastery.",
+    "picks": [
+      {
+        "driver_id": "russell",
+        "driver_name": "George Russell",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "Won Canada 2025 — the power-unit-sensitive layout suits Mercedes' PU advantage. His wet-weather skills were also on display when conditions changed."
+      },
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "podium",
+        "confidence": "high",
+        "reason": "Red Bull's power unit is strong in Montreal and Verstappen's late-braking into the hairpin is unmatched. A reliable podium pick."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "podium",
+        "confidence": "medium",
+        "reason": "McLaren's race pace ensures Norris is always in podium contention even when the circuit characteristics are slightly less ideal."
+      }
+    ]
+  },
+  {
+    "question": "Who are the three best drivers to bet on overall this season?",
+    "summary": "For a season-long betting portfolio in 2025, three drivers stand above all others for win probability, podium reliability, and overall consistency. These three account for 22 of the 24 race wins and dominate every key metric.",
+    "picks": [
+      {
+        "driver_id": "max_verstappen",
+        "driver_name": "Max Verstappen",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "8 wins — the most of any driver. 8 poles, 15 podiums. The highest individual ceiling on the grid. Non-negotiable in any win-bet strategy."
+      },
+      {
+        "driver_id": "norris",
+        "driver_name": "Lando Norris",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "7 wins, 18 podiums — the most podiums of the season. Championship leader. The most complete all-round performer in 2025."
+      },
+      {
+        "driver_id": "piastri",
+        "driver_name": "Oscar Piastri",
+        "bet_type": "win",
+        "confidence": "high",
+        "reason": "7 wins, 16 podiums, fastest lap of the season. Marginally behind Norris on points but arguably faster in raw terms. Essential in any betting selection."
+      }
+    ]
+  }
+]

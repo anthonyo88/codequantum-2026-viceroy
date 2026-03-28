@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 from app.core.logging import configure_logging
-from app.api.v1 import drivers, search, admin, auth, companies, shortlists, chat
+from app.api.v1 import drivers, search, admin, auth, companies, shortlists, chat, betting
 
 
 @asynccontextmanager
@@ -41,6 +41,7 @@ app.include_router(shortlists.router, prefix=f"{settings.api_v1_prefix}/shortlis
 
 # Phase 3 routers
 app.include_router(chat.router, prefix=f"{settings.api_v1_prefix}/chat", tags=["chat"])
+app.include_router(betting.router, prefix=f"{settings.api_v1_prefix}/betting", tags=["betting"])
 
 
 @app.get("/health")

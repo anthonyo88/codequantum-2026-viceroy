@@ -8,6 +8,7 @@ from app.config import settings
 from app.db.repositories.driver_repo import DriverRepository
 from app.db.repositories.search_query_repo import SearchQueryRepository
 from app.models.driver import Driver
+from app.rag.demo_cache import get_demo_cache
 from app.rag.llm_client import LLMClient
 from app.rag.prompt_builder import build_ranking_prompt
 from app.rag.retriever import RAGRetriever
@@ -30,8 +31,30 @@ class RAGPipeline:
         """
         Full RAG flow: embed → retrieve → prompt → rank → log → return.
         Returns (ranked_drivers, explanation, token_count).
+
+        Demo cache is checked first — if the query is semantically close to a
+        pre-answered question the cached answer is returned instantly without
+        calling the LLM.
         """
         start_ms = int(time.monotonic() * 1000)
+
+        # 0. Demo cache check — skip LLM entirely on a hit
+        cached = await get_demo_cache().check_driver(query)
+        if cached:
+            driver_repo = DriverRepository(self.session)
+            drivers = await driver_repo.get_by_full_names(cached["driver_names"])
+            latency_ms = int(time.monotonic() * 1000) - start_ms
+            await self._log_search(
+                company_id=company_id,
+                user_id=user_id,
+                query_type=query_type,
+                query_text=query,
+                drivers=drivers,
+                explanation=cached["answer"],
+                latency_ms=latency_ms,
+                token_count=0,
+            )
+            return drivers, cached["answer"], 0
 
         # 1. Embed the query
         query_embedding = await self.llm.get_embedding(query)

@@ -113,3 +113,16 @@ class DriverRepository:
             .where(Driver.id.in_(driver_ids))
         )
         return list(result.scalars().all())
+
+    async def get_by_full_names(self, full_names: list[str]) -> list[Driver]:
+        """Fetch drivers whose 'first_name last_name' matches any entry in *full_names*.
+        Order is preserved to match the cache's intended ranking."""
+        result = await self.session.execute(
+            select(Driver)
+            .options(selectinload(Driver.career_stats))
+            .where(
+                (Driver.first_name + " " + Driver.last_name).in_(full_names)
+            )
+        )
+        drivers_map = {d.full_name: d for d in result.scalars().all()}
+        return [drivers_map[n] for n in full_names if n in drivers_map]
