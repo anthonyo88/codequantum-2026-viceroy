@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "F1 Recruit — Driver Recruiting Platform",
+  title: "F1 R&B — Driver Recruiting Platform",
   description: "AI-powered Formula 1 driver recruiting platform",
 };
 

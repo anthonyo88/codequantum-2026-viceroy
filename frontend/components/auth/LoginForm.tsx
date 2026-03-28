@@ -44,7 +44,7 @@ export function LoginForm() {
             <span className="text-white font-black text-sm">F1</span>
           </div>
           <span className="text-xl font-bold text-text-primary tracking-tight">
-            F1 Recruit
+            F1 R&B
           </span>
         </div>
 

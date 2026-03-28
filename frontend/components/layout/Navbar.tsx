@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
-import { LogOut, ChevronDown, Users, Bookmark, MessageSquare } from "lucide-react";
+import { LogOut, ChevronDown, Users, Bookmark, MessageSquare, TrendingUp } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
 import { useAuth } from "@/lib/context/AuthContext";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { href: "/drivers", label: "Drivers", icon: Users },
   { href: "/shortlists", label: "Shortlists", icon: Bookmark },
   { href: "/chat", label: "AI Search", icon: MessageSquare },
+  { href: "/betting", label: "Betting", icon: TrendingUp },
 ];
 
 export function Navbar() {
@@ -32,7 +33,7 @@ export function Navbar() {
           <span className="text-white font-black text-xs">F1</span>
         </div>
         <span className="text-base font-bold text-text-primary tracking-tight hidden sm:block">
-          F1 Recruit
+          F1 R&B
         </span>
       </Link>
 
